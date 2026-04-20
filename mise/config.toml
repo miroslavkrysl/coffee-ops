@@ -1,0 +1,4 @@
+[tools]
+"cargo:cargo-binstall" = "latest"
+"cargo:dioxus-cli" = "latest"
+rust = { version = "latest", targets = "wasm32-unknown-unknown", components = "rust-src" }

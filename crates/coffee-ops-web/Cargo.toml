@@ -1,0 +1,17 @@
+[package]
+name = "coffee-ops-web"
+authors.workspace = true
+description.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+version.workspace = true
+
+[dependencies]
+dioxus = { version = "0.7.5", features = ["router", "fullstack"] }
+
+[features]
+default = []
+web = ["dioxus/web"]
+server = ["dioxus/server"]

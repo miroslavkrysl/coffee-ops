@@ -1,0 +1,19 @@
+[workspace]
+members = [
+    "crates/coffee-ops-core",
+    "crates/coffee-ops-web"
+]
+resolver = "2"
+
+[workspace.package]
+authors = ["Miroslav Krýsl <mkrysl@proton.me>"]
+description = "Office coffee ratings"
+edition = "2024"
+license = "AGPL-3.0-only"
+repository = "https://github.com/miroslavkrysl/coffee-ops"
+rust-version = "1.95.0"
+version = "0.1.0"
+
+[workspace.dependencies]
+coffee-ops-core = { path = "crates/coffee-ops-core" }
+coffee-ops-web = { path = "crates/coffee-ops-web" }

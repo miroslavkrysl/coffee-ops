@@ -1,6 +1,6 @@
 [package]
-name = "coffee-ops-core"
-description = "CoffeeOps core application logic"
+name = "coffee-ops-db"
+description = "CoffeeOps storage implementation using Turso"
 authors.workspace = true
 edition.workspace = true
 license.workspace = true
@@ -9,3 +9,5 @@ rust-version.workspace = true
 version.workspace = true
 
 [dependencies]
+turso = { workspace = true }
+rootcause = { workspace = true }

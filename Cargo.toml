@@ -1,13 +1,15 @@
 [workspace]
 members = [
+    "crates/coffee-ops-api",
     "crates/coffee-ops-core",
+    "crates/coffee-ops-db",
     "crates/coffee-ops-web"
 ]
 resolver = "2"
 
 [workspace.package]
 authors = ["Miroslav Krýsl <mkrysl@proton.me>"]
-description = "Office coffee ratings"
+description = "CoffeeOps - Office coffee ratings"
 edition = "2024"
 license = "AGPL-3.0-only"
 repository = "https://github.com/miroslavkrysl/coffee-ops"
@@ -15,5 +17,11 @@ rust-version = "1.95.0"
 version = "0.1.0"
 
 [workspace.dependencies]
+coffee-ops-api = { path = "crates/coffee-ops-api" }
 coffee-ops-core = { path = "crates/coffee-ops-core" }
+coffee-ops-db = { path = "crates/coffee-ops-db" }
 coffee-ops-web = { path = "crates/coffee-ops-web" }
+
+dioxus = "0.7.5"
+turso = "0.6.0-pre.18"
+rootcause = "0.12.1"

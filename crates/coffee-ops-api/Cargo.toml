@@ -1,0 +1,18 @@
+[package]
+name = "coffee-ops-api"
+description = "CoffeeOps backend API definitions for Dioxus frontend"
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+version.workspace = true
+
+[dependencies]
+coffee-ops-core = { workspace = true, optional = true }
+
+dioxus = { workspace = true, features = ["fullstack"] }
+
+[features]
+web = ["dioxus/web"]
+server = ["dioxus/server", "dep:coffee-ops-core"]

@@ -1,4 +1,5 @@
 use dioxus::prelude::*;
+use coffee_ops_api::echo_server;
 
 #[derive(Debug, Clone, Routable, PartialEq)]
 #[rustfmt::skip]
@@ -127,8 +128,3 @@ fn Echo() -> Element {
     }
 }
 
-/// Echo the user input on the server.
-#[post("/api/echo")]
-async fn echo_server(input: String) -> Result<String, ServerFnError> {
-    Ok(input)
-}

@@ -14,5 +14,4 @@ coffee-ops-core = { workspace = true, optional = true }
 dioxus = { workspace = true, features = ["fullstack"] }
 
 [features]
-web = ["dioxus/web"]
 server = ["dioxus/server", "dep:coffee-ops-core"]

@@ -22,6 +22,7 @@ coffee-ops-core = { path = "crates/coffee-ops-core" }
 coffee-ops-db = { path = "crates/coffee-ops-db" }
 coffee-ops-web = { path = "crates/coffee-ops-web" }
 
-dioxus = "0.7.5"
-turso = "0.6.0-pre.18"
+dioxus = "0.7.6"
 rootcause = "0.12.1"
+turso = "0.6.0-pre.19"
+uuid = "1.23.1"

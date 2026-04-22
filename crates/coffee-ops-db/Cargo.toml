@@ -9,5 +9,7 @@ rust-version.workspace = true
 version.workspace = true
 
 [dependencies]
+coffee-ops-core = { workspace = true }
+
 turso = { workspace = true }
 rootcause = { workspace = true }

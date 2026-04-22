@@ -9,3 +9,5 @@ rust-version.workspace = true
 version.workspace = true
 
 [dependencies]
+rootcause = {workspace = true}
+uuid = {workspace = true, features = ["serde", "v7"]}

@@ -12,4 +12,6 @@ version.workspace = true
 coffee-ops-core = { workspace = true }
 
 turso = { workspace = true }
+tokio = { workspace = true, features = ["rt"] }
+tracing = { workspace = true }
 rootcause = { workspace = true }

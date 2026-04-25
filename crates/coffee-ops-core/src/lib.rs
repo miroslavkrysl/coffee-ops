@@ -2,3 +2,4 @@
 
 pub mod domain;
 pub mod port;
+mod usecase;

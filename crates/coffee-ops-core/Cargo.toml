@@ -9,5 +9,7 @@ rust-version.workspace = true
 version.workspace = true
 
 [dependencies]
+derive_more = { workspace = true, features = ["as_ref"] }
+icu_normalizer = {workspace = true}
 rootcause = {workspace = true}
 uuid = {workspace = true, features = ["serde", "v7"]}

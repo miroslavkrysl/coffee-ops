@@ -14,6 +14,6 @@ coffee-ops-api = {workspace = true}
 dioxus = { workspace = true, features = ["router", "fullstack"] }
 
 [features]
-default = []
+default = ["web"]
 web = ["dioxus/web"]
 server = ["dioxus/server", "coffee-ops-api/server"]

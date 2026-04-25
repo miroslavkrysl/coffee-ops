@@ -22,7 +22,11 @@ coffee-ops-core = { path = "crates/coffee-ops-core" }
 coffee-ops-db = { path = "crates/coffee-ops-db" }
 coffee-ops-web = { path = "crates/coffee-ops-web" }
 
+derive_more = "2.1.1"
 dioxus = "0.7.6"
+icu_normalizer = "2.2.0"
 rootcause = "0.12.1"
+tokio = "1.52.1"
+tracing = "0.1.44"
 turso = "0.6.0-pre.19"
 uuid = "1.23.1"
